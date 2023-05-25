@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "poppins", sans-serif;
+  height: 100vh;
+
+  /* disable cursor while debugging */
+  cursor: none;
+  /* enable while debugging */
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 7rem;
+  font-weight: 900;
+  color: rgb(38 43 65);
+}
+
+.cursor {
+  position: absolute;
+  /* remove width while debugging */
+  width: 128px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursor img {
+  width: 100%;
+}
+
+/* For Debugging */
+.angle {
+  position: absolute;
+  width: 4000px;
+  height: 1px;
+  background-color: brown;
+}
+
+div.x {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: red;
+}
+
+div.y {
+  position: absolute;
+  height: 100vh;
+  width: 1px;
+  background: red;
+}
+
+.angle-container {
+  position: absolute;
+  top: 0;
+}
