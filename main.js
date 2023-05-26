@@ -23,5 +23,6 @@ function handleMousemove(e) {
   // Debugging
 
   // document.querySelector(".origin-angle").innerHTML = `X: ${x} : Y: ${y}`;
-  // document.querySelector(".torch-angle").innerHTML = parseInt(angle) + "°";
+  // document.querySelector(".torch-angle").innerHTML =
+  //   "Angle: " + parseInt(angle) + "°";
 }
