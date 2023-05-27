@@ -5,11 +5,10 @@ body {
   justify-content: center;
   font-family: "poppins", sans-serif;
   height: 100vh;
-
-  /* disable cursor while debugging */
-  cursor: none;
-  /* enable while debugging */
   overflow: hidden;
+
+  /* comment while debugging to see cursor */
+  cursor: none;
 }
 
 h1 {
@@ -20,7 +19,6 @@ h1 {
 
 .cursor {
   position: absolute;
-  /* remove width while debugging */
   width: 128px;
   top: 0;
   left: 0;
